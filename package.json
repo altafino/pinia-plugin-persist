@@ -54,7 +54,6 @@
     "@types/node": "^15.0.2",
     "@typescript-eslint/eslint-plugin": "^4.23.0",
     "@typescript-eslint/parser": "^4.23.0",
-    "@vue/composition-api": "^1.0.0-rc.8",
     "@vue/devtools-api": "^6.0.0-beta.9",
     "@vue/server-renderer": "^3.0.11",
     "@vue/test-utils": "^2.0.0-rc.6",
@@ -80,5 +79,9 @@
   },
   "lint-staged": {
     "*.{js,ts}": "eslint"
+  },
+  "dependencies": {
+    "esbuild": "^0.12.14",
+    "vue": "^3.1.3"
   }
 }

@@ -1,4 +1,4 @@
-import { watch } from '@vue/composition-api'
+import { watch } from 'vue'
 import { PiniaPluginContext, StateTree, GettersTree } from 'pinia'
 
 export interface PersistStrategy {
@@ -36,6 +36,7 @@ const updateStorage = (strategy: PersistStrategy, store: Store) => {
     storage.setItem(storeKey, JSON.stringify(store.$state))
   }
 }
+
 
 export default ({ options, store }: PiniaPluginContext): void => {
   if (options.persist?.enabled) {

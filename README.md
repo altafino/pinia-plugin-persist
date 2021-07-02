@@ -1,3 +1,5 @@
+Fork for Vue3
+
 # pinia-plugin-persist
 
 ![Build](https://github.com/Seb-L/pinia-plugin-persist/actions/workflows/build.yml/badge.svg)
